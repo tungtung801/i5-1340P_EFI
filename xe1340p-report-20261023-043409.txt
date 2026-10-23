@@ -1,0 +1,142 @@
+==================================================================
+ xe1340p-check — 2026-10-23 04:34:09   host=MacBook-Pro-cua-tunguyen.local
+ macOS 26.7.1 build 25G241
+==================================================================
+   56    9 0xffffff800417a000 0x30000    0x30000    as.vit9696.Lilu (1.7.3) 38ACFA46-F60C-3795-B868-EF32F98C78ED <9 7 6 3 2 1>
+   57    0 0xffffff80041c3000 0x109000   0x109000   com.StezzaPilot.NootedGreen (1.0.0) 377239C1-7A90-37D4-8E6E-E7509C8B3CA6 <56 19 9 7 6 3 2 1>
+   60    0 0xffffff8004328000 0x83000    0x83000    as.vit9696.WhateverGreen (1.7.2) 80702A1A-BA50-3583-AA77-7957C5FFC7FC <56 19 9 7 6 3 2 1>
+  122    2 0xffffff7f97285000 0x15ff7    0x15ff7    org.smichaud.HookCase (8.0.1) 799079E6-4108-338D-BBC1-D16C8D611B4E <19 9 7 6 3 2 1>
+  123    0 0xffffff7f96e73000 0x138000   0x138000   com.xxxxx.driver.AppleIntelTGLGraphicsFramebuffer (16.0.0) B96A8448-9D17-3F78-B76D-15A0B359A9A0 <122 121 120 119 48 19 17 9 7 6 3 1>
+  154    0 0xffffff7f96d27000 0xc7ff9    0xc7ff9    com.xxxxx.driver.AppleIntelTGLGraphics (16.0.2) BA3AA1C0-FE6B-33B3-9D85-73F848394E3D <122 121 119 96 19 9 7 6 3 1>
+-rwxr-xr-x  1 root  wheel  5324208 Oct 22 03:53 /Library/GPUBundles/AppleIntelTGLGraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelTGLGraphicsMTLDriver
+-rwxr-xr-x  1 root  wheel  64704 Oct 22 03:53 /Library/GPUBundles/AppleIntelTGLGraphicsMTLDriver.bundle/Contents/MacOS/libxedrv.dylib
+  0x10       mong đợi=1b  thực tế=1b  [1;32mPATCHED[0m
+  0x1080     mong đợi=0c  thực tế=0c  [1;32mPATCHED[0m
+  0x18c28    mong đợi=31  thực tế=31  [1;32mPATCHED[0m
+  0x1c7c0    mong đợi=90  thực tế=90  [1;32mPATCHED[0m
+  0x1c7cf    mong đợi=90  thực tế=90  [1;32mPATCHED[0m
+  0x49cfe    mong đợi=90  thực tế=90  [1;32mPATCHED[0m
+  0x65f12    mong đợi=d0  thực tế=d0  [1;32mPATCHED[0m
+  0x67c27    mong đợi=90  thực tế=90  [1;32mPATCHED[0m
+  0x67c5c    mong đợi=eb  thực tế=eb  [1;32mPATCHED[0m
+  0xa2e7b    mong đợi=50  thực tế=50  [1;32mPATCHED[0m
+  0x07ff77 (3 byte, phải KHÔNG phải rolb/rorb) = 888710
+  0x080253 (3 byte, phải KHÔNG phải rolb/rorb) = 888be0
+    XE_COMPRESSAO = (trống, fix đang bật — đúng)
+    XE_NOCOPY_ZERO = (trống, fix đang bật — đúng)
+    XE_FILL_NATIVO = (trống, fix đang bật — đúng)
+    XE_COPIA_NATIVA = (trống, fix đang bật — đúng)
+    XE_STENCIL_NATIVO = (trống, fix đang bật — đúng)
+  WindowServer pid=195  số mapping libxedrv=0
+
+  -- /tmp/xedrv-AccessibilityUIServer.log (8 dòng)
+     1792755066 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x110e9f000)
+
+  -- /tmp/xedrv-ControlCenter.log (8 dòng)
+     1792755070 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x10f1ff000)
+
+  -- /tmp/xedrv-CursorUIViewService.log (8 dòng)
+     1792755067 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x1139bb000)
+
+  -- /tmp/xedrv-Finder.log (8 dòng)
+     1792755066 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x11b9a6000)
+
+  -- /tmp/xedrv-Installer Progress.log (8 dòng)
+     1792755038 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x1165f5000)
+
+  -- /tmp/xedrv-NotificationCenter.log (103 dòng)
+     1792755072 PIPE sync-opt ok vf=vjba6la8fefa4 ff=path_exterior_fragment cor0=80 blend=0 ok=8 falhas=0 
+     1792755072 PIPE sync-opt ok vf=plane__vertex ff=fcfa6ca8fefa4 cor0=80 blend=1 ok=16 falhas=0 
+     1792755072 STENCIL64K 256x256 fmt=253 estava em 0x40b45000 (não alinhado a 64 KB) -> heap próprio em 0x40c50000 (n=3)
+     1792755074 STENCIL64K 512x256 fmt=253 estava em 0x410d1000 (não alinhado a 64 KB) -> heap próprio em 0x41100000 (n=4)
+     1792755143 STENCIL64K 704x256 fmt=253 estava em 0x40b69000 (não alinhado a 64 KB) -> heap próprio em 0x40bb0000 (n=8)
+     1792755143 PIPE sync-opt ok vf=plane__vertex ff=fcba6ca8fefa4 cor0=80 blend=1 ok=32 falhas=0 
+     1792755174 PIPE sync-opt ok vf=plane__vertex ff=fmba15fefa4 cor0=80 blend=0 ok=64 falhas=0 
+     1792755175 STENCIL64K 128x64 fmt=253 estava em 0x40b01000 (não alinhado a 64 KB) -> heap próprio em 0x41e80000 (n=16)
+
+  -- /tmp/xedrv-SafeEjectGPUService.log (8 dòng)
+     1792755071 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x107df4000)
+
+  -- /tmp/xedrv-SecurityAgent.log (94 dòng)
+     1792755039 PIPE sync-opt ok vf=plane__vertex ff=fcjba5lca6jbefia3 cor0=25 blend=0 ok=5 falhas=0 
+     1792755039 STENCIL64K 338x126 fmt=253 estava em 0x401e1000 (não alinhado a 64 KB) -> heap próprio em 0x40980000 (n=2)
+     1792755039 PIPE sync-opt ok vf=plane__vertex ff=fca15ofefa4 cor0=94 blend=0 ok=6 falhas=0 
+     1792755040 STENCIL64K 448x128 fmt=253 estava em 0x401e9000 (não alinhado a 64 KB) -> heap próprio em 0x40ab0000 (n=3)
+     1792755040 PIPE sync-opt ok vf=plane__vertex ff=fca15dhefa4 cor0=115 blend=0 ok=8 falhas=0 
+     1792755040 PIPE sync-opt ok vf=plane__vertex ff=foba3bia9beaea4 cor0=65 blend=0 ok=16 falhas=0 
+     1792755040 STENCIL64K 443x128 fmt=253 estava em 0x40bb1000 (não alinhado a 64 KB) -> heap próprio em 0x40bd0000 (n=4)
+     1792755060 STENCIL64K 32x96 fmt=253 estava em 0x40211000 (não alinhado a 64 KB) -> heap próprio em 0x409e0000 (n=8)
+
+  -- /tmp/xedrv-Spotlight.log (116 dòng)
+     1792755074 PIPE sync-opt ok vf=custom_effect_vertex ff=ffgea5cia6dhefa4 cor0=115 blend=1 ok=4 falhas=0 
+     1792755074 PIPE sync-opt ok vf=plane__vertex ff=fpba14dhefa4 cor0=115 blend=0 ok=5 falhas=0 
+     1792755074 PIPE sync-opt ok vf=plane__vertex ff=fpba2ia11beaea4 cor0=65 blend=0 ok=6 falhas=0 
+     1792755074 PIPE sync-opt ok vf=plane__vertex ff=fpba3ba10beaea4 cor0=65 blend=0 ok=8 falhas=0 
+     1792755074 STENCIL64K 130x130 fmt=253 estava em 0x40a31000 (não alinhado a 64 KB) -> heap próprio em 0x40b20000 (n=3)
+     1792755074 PIPE sync-opt ok vf=plane__vertex ff=foba3bpa10fefa4 cor0=80 blend=0 ok=16 falhas=0 
+     1792755074 STENCIL64K 128x128 fmt=253 estava em 0x40ed1000 (não alinhado a 64 KB) -> heap próprio em 0x40ef0000 (n=4)
+     1792755074 PIPE sync-opt ok vf=vhea2bea2ca7dhefa4 ff=fhea2bea2ca7dhefa4 cor0=115 blend=1 ok=32 falhas=0 
+
+  -- /tmp/xedrv-Terminal.log (67 dòng)
+     1792755175 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x11a267000)
+     1792755175 PIPE sync ok vf=VfxXh ff=BclrXhf cor0=80 blend=0 ok=1 falhas=0 
+     1792755175 PIPE sync ok vf=VfxU10Xh ff=TimgXhf_Isrc cor0=80 blend=0 ok=2 falhas=0 
+     1792755175 PIPE sync ok vf=VfxXghb ff=Xghfc cor0=80 blend=0 ok=3 falhas=0 
+     1792755175 PIPE sync ok vf=VfxXh ff=Xhf cor0=80 blend=1 ok=4 falhas=0 
+     1792755175 PIPE sync ok vf=buffer_image_blit_vert_lph ff=buffer_image_blit_frag_lph cor0=80 blend=1 ok=5 falhas=0 
+     1792755175 PIPE sync ok vf=VfxXh ff=Xhf cor0=80 blend=0 ok=6 falhas=0 
+     1792755186 PIPE sync ok vf=VfxLlnXh ff=TcmaLlnXhf cor0=80 blend=1 ok=8 falhas=0 
+
+  -- /tmp/xedrv-TextInputMenuAgent.log (8 dòng)
+     1792755067 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x107d93000)
+
+  -- /tmp/xedrv-TextInputSwitcher.log (8 dòng)
+     1792755070 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x115fd5000)
+
+  -- /tmp/xedrv-WindowServer.log (132 dòng)
+     1792755037 PIPE sync ok vf=ViewportToNDC ff=GPUPass cor0=80 blend=0 ok=4 falhas=0 
+     1792755037 PIPE sync ok vf=UberCompositeVertex ff=UberCompositeFragment cor0=80 blend=0 ok=5 falhas=0 
+     1792755038 PIPE sync ok vf=VfxXh ff=Xhf cor0=80 blend=0 ok=6 falhas=0 
+     1792755038 PIPE sync ok vf=VfxU10Xh ff=TimgXhf_Isrg cor0=80 blend=1 ok=8 falhas=0 
+     1792755041 PIPE sync ok vf=downsample_blur_vert_lph ff=narrow_blur_11_frag_lph cor0=80 blend=0 ok=16 falhas=0 
+     1792755041 PIPE sync ok vf=VfxXh ff=BlsoXhf cor0=80 blend=0 ok=32 falhas=0 
+     1792755063 PIPE sync ok vf=VfxXh ff=BltnXhf cor0=80 blend=0 ok=64 falhas=0 
+     1792755175 PIPE sync ok vf=VfxU11Xh ff=Tm1aBpldXhf_Isup_Isup cor0=80 blend=0 ok=128 falhas=0 
+
+  -- /tmp/xedrv-com.apple.dock.extra.log (90 dòng)
+     1792755069 PIPE sync-opt ok vf=custom_effect_vertex ff=ffgea5cia6dhefa4 cor0=115 blend=1 ok=4 falhas=0 
+     1792755069 PIPE sync-opt ok vf=plane__vertex ff=fpba14dhefa4 cor0=115 blend=0 ok=5 falhas=0 
+     1792755069 PIPE sync-opt ok vf=plane__vertex ff=fpba2ia11beaea4 cor0=65 blend=0 ok=6 falhas=0 
+     1792755069 PIPE sync-opt ok vf=plane__vertex ff=fpba3ba10beaea4 cor0=65 blend=0 ok=8 falhas=0 
+     1792755069 STENCIL64K 130x130 fmt=253 estava em 0x40a01000 (não alinhado a 64 KB) -> heap próprio em 0x40af0000 (n=3)
+     1792755069 PIPE sync-opt ok vf=plane__vertex ff=foba3bpa10fefa4 cor0=80 blend=0 ok=16 falhas=0 
+     1792755069 STENCIL64K 128x128 fmt=253 estava em 0x40a01000 (não alinhado a 64 KB) -> heap próprio em 0x40bf0000 (n=4)
+     1792755069 PIPE sync-opt ok vf=vhea2bea2ca7dhefa4 ff=fhea2bea2ca7dhefa4 cor0=115 blend=1 ok=32 falhas=0 
+
+  -- /tmp/xedrv-loginwindow.log (8 dòng)
+     1792755041 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x109c17000)
+  boot-args	IGLogLevel=3 -ngreentglwithgfx -allow3d -disablegfxfirmware ngreen-dmc=adlp -ngreenv189 -ngreenkeepefi -ngreenxefix -ngreenfixbootmode amfi_get_out_of_my_way=1 ngreenSched=4 ngreenV142=3 ngreenblmax=17777 gfxrst=1 -ngreenNoMetal
+Graphics/Displays:
+
+    Intel Iris Xe Graphics:
+
+      Chipset Model: Intel Iris Xe Graphics
+      Type: GPU
+      Bus: Built-In
+      Slot: built-in
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel
+      Device ID: 0x9a49
+      Revision ID: 0x0004
+      Metal Support: Metal 2
+      Displays:
+        Display:
+          Resolution: 1920 x 1200 (WUXGA - Widescreen Ultra eXtended Graphics Array)
+          UI Looks like: 1920 x 1200 @ 60.00Hz
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Automatically Adjust Brightness: No
+          Connection Type: Internal
+
