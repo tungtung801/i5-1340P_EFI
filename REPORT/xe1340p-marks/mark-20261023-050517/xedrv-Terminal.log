@@ -1,0 +1,68 @@
+1792756969 sem compressão: dev=1 ios=1 heap=1 heapoff=1 heapsize=1
+1792756969 registrador de pipelines: 1 1 1 1 1
+1792756969 nocopyfix: 1 1
+1792756969 fillfix: fill=1 fill4=1 cópia2D->3D=1
+1792756969 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x107856000)
+1792756969 layout: RPDInternal size=0x338 _private@0x30; attInternal size=0x10 _private@0x8
+1792756969 layout: sonda sampleCount@0xb8=4 vertexDescriptor@0x110 ok -> conversão ligada
+1792756969 carregada em Terminal[740]: entries=1 pd=1 rhm=1 layout=1 lab=0
+1792756971 TEX via=iosurface fmt=80 640x353 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=1)
+1792756971 hashMap[0] nó=0x600001743c60 k0=3 k1=3 valor=0x600001539c80 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x6000017427e0 k0=6 k1=6 valor=0x600001539c40 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x600001743dc0 k0=1 k1=1 valor=0x600001539ab0 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x600001742160 k0=0 k1=0 valor=0x60000153a090 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x600001747fc0 k0=2 k1=2 valor=0x600001539b30 isa=11dfff848eb26f1
+1792756971 hashMap[0] nó=0x600001740d20 k0=3 k1=3 valor=0x60000153a080 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x600001741580 k0=6 k1=6 valor=0x60000153a150 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x600001740be0 k0=1 k1=1 valor=0x60000153a170 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x600001743c60 k0=0 k1=0 valor=0x60000153a160 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x6000017427e0 k0=2 k1=2 valor=0x600001539d10 isa=11dfff848eb26f1
+1792756971 _descriptorPrivate(pipeline) convertido p/ layout antigo
+1792756971 _descriptorPrivate(attachment) convertido p/ bits antigos
+1792756971 PIPE sync ok vf=VfxXh ff=BclrXhf cor0=80 blend=0 ok=1 falhas=0 
+1792756971 hashMap[0] nó=0x600001747fc0 k0=3 k1=3 valor=0x600001539fb0 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x6000017bdb40 k0=6 k1=6 valor=0x600001539b50 isa=11dfff848eb26f1
+1792756971 hashMap[0] nó=0x6000017904c0 k0=3 k1=3 valor=0x600001570e90 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x6000017b1340 k0=1 k1=1 valor=0x6000015388f0 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x6000017904e0 k0=6 k1=6 valor=0x600001571100 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x6000017b0ec0 k0=0 k1=0 valor=0x60000153a0a0 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x600001790480 k0=1 k1=1 valor=0x600001571030 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x6000017b0b80 k0=2 k1=2 valor=0x600001539b40 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x600001790460 k0=0 k1=0 valor=0x600001570c70 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x600001790440 k0=2 k1=2 valor=0x600001570fe0 isa=11dfff848eb26f1
+1792756971 hashMap[0] nó=0x6000017b0ec0 k0=3 k1=3 valor=0x600001527fa0 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x6000017b1340 k0=6 k1=6 valor=0x600001527f70 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x6000017b0b80 k0=1 k1=1 valor=0x600001527f80 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x600001747fc0 k0=0 k1=0 valor=0x600001527f90 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x600001736d60 k0=2 k1=2 valor=0x600001527fd0 isa=11dfff848eb26f1
+1792756971 PIPE sync ok vf=VfxXghb ff=Xghfc cor0=80 blend=0 ok=2 falhas=0 
+1792756971 hashMap[0] nó=0x6000017bda40 k0=3 k1=3 valor=0x600001539e90 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x6000017bc200 k0=6 k1=6 valor=0x60000153a000 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x6000017bc220 k0=1 k1=1 valor=0x600001539ff0 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x6000017bdce0 k0=0 k1=0 valor=0x600001538a90 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x6000017bdba0 k0=2 k1=2 valor=0x600001539d50 isa=11dfff848eb26f1
+1792756971 PIPE sync ok vf=VfxXh ff=Xhf cor0=80 blend=0 ok=3 falhas=0 
+1792756971 hashMap[0] nó=0x600001795220 k0=3 k1=3 valor=0x600001527d10 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x600001795240 k0=6 k1=6 valor=0x600001527ce0 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x600001795200 k0=1 k1=1 valor=0x600001527cf0 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x6000017951e0 k0=0 k1=0 valor=0x600001527d00 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x6000017951c0 k0=2 k1=2 valor=0x600001527d20 isa=11dfff848eb26f1
+1792756971 hashMap[0] nó=0x600001795260 k0=3 k1=3 valor=0x600001527cc0 isa=11dfff848eb26f1
+1792756971 hashMap[1] nó=0x600001795280 k0=6 k1=6 valor=0x600001527c90 isa=11dfff848eb26f1
+1792756971 hashMap[2] nó=0x600001795220 k0=1 k1=1 valor=0x600001527ca0 isa=11dfff848eb26f1
+1792756971 hashMap[3] nó=0x600001795240 k0=0 k1=0 valor=0x600001527cb0 isa=11dfff848eb26f1
+1792756971 hashMap[4] nó=0x600001795200 k0=2 k1=2 valor=0x600001527cd0 isa=11dfff848eb26f1
+1792756971 PIPE sync ok vf=buffer_image_blit_vert_lph ff=buffer_image_blit_frag_lph cor0=80 blend=1 ok=4 falhas=0 
+1792756972 TEX via=iosurface fmt=80 640x353 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=2)
+1792756972 TEX via=iosurface fmt=80 640x353 mips=1 usage=0x1 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=3)
+1792756972 TEX via=dev fmt=80 1x1 mips=1 usage=0x1 storage=1 type=2 ios=0x00000000 plano=0 -> ok (n=1)
+1792756972 TEX via=dev fmt=80 1x1 mips=1 usage=0x1 storage=1 type=7 ios=0x00000000 plano=0 -> ok (n=2)
+1792756972 TEX via=dev fmt=80 32x32 mips=1 usage=0x1 storage=1 type=2 ios=0x00000000 plano=0 -> ok (n=3)
+1792756972 PIPE sync ok vf=VfxU10Xh ff=TimgXhf_IsrcCcl cor0=80 blend=0 ok=5 falhas=0 
+1792756972 PIPE sync ok vf=VfxXh ff=Xhf cor0=80 blend=1 ok=6 falhas=0 
+1792756972 TEX via=iosurface fmt=80 640x353 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=4)
+1792756980 TEX via=dev fmt=80 64x64 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=4)
+1792756980 PIPE sync ok vf=VfxLlnXh ff=TcmaLlnXhf cor0=80 blend=0 ok=8 falhas=0 
+1792756994 TEX via=iosurface fmt=80 640x353 mips=1 usage=0x1 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=8)
+1792757015 TEX via=iosurface fmt=80 640x353 mips=1 usage=0x1 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=16)
+1792757090 TEX via=iosurface fmt=80 597x353 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=32)

@@ -1,0 +1,8 @@
+1792756956 sem compressão: dev=1 ios=1 heap=1 heapoff=1 heapsize=1
+1792756956 registrador de pipelines: 1 1 1 1 1
+1792756956 nocopyfix: 1 1
+1792756956 fillfix: fill=1 fill4=1 cópia2D->3D=1
+1792756956 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x10f0c2000)
+1792756956 layout: RPDInternal size=0x338 _private@0x30; attInternal size=0x10 _private@0x8
+1792756956 layout: sonda sampleCount@0xb8=4 vertexDescriptor@0x110 ok -> conversão ligada
+1792756956 carregada em TextInputMenuAgent[630]: entries=1 pd=1 rhm=1 layout=1 lab=0

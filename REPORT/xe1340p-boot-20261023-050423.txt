@@ -1,0 +1,53 @@
+xe1340p-run [boot] 2026-10-23 05:04:23 host=MacBook-Pro-cua-tunguyen.local 26.7.1 25G241
+
+[1;36m== 1. boot-args ==[0m
+boot-args	IGLogLevel=3 -ngreentglwithgfx -allow3d -disablegfxfirmware ngreen-dmc=adlp -ngreenv189 -ngreenkeepefi -ngreenxefix -ngreenfixbootmode amfi_get_out_of_my_way=1 ngreenSched=4 ngreenV142=3 ngreenblmax=17777 gfxrst=1
+
+[1;36m== 2. Kext đang nạp (TGL / NootedGreen / HookCase) ==[0m
+   57    0 0xffffff80041c3000 0x109000   0x109000   com.StezzaPilot.NootedGreen (1.0.0) 377239C1-7A90-37D4-8E6E-E7509C8B3CA6 <56 19 9 7 6 3 2 1>
+  121    2 0xffffff7f97285000 0x15ff7    0x15ff7    org.smichaud.HookCase (8.0.1) 799079E6-4108-338D-BBC1-D16C8D611B4E <19 9 7 6 3 2 1>
+  122    0 0xffffff7f96e73000 0x138000   0x138000   com.xxxxx.driver.AppleIntelTGLGraphicsFramebuffer (16.0.0) B96A8448-9D17-3F78-B76D-15A0B359A9A0 <121 120 119 118 48 19 17 9 7 6 3 1>
+  150    0 0xffffff7f96d27000 0xc7ff9    0xc7ff9    com.xxxxx.driver.AppleIntelTGLGraphics (16.0.2) BA3AA1C0-FE6B-33B3-9D85-73F848394E3D <121 120 118 94 19 9 7 6 3 1>
+
+[1;36m== 3. Accelerator có sống không ==[0m
+Graphics/Displays:
+
+    Intel Iris Xe Graphics:
+
+      Chipset Model: Intel Iris Xe Graphics
+      Type: GPU
+      Bus: Built-In
+      Slot: built-in
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel
+      Device ID: 0x9a49
+      Revision ID: 0x0004
+      Metal Support: Metal 2
+      Displays:
+        Display:
+          Resolution: 1920 x 1200 (WUXGA - Widescreen Ultra eXtended Graphics Array)
+          UI Looks like: 1920 x 1200 @ 60.00Hz
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+
+[1;36m== 4. Metal device + GPU đang dùng ==[0m
+  |   "MetalPluginName" = "AppleIntelTGLGraphicsMTLDriver"
+  |   "PerformanceStatistics" = {"orphanedReusableVidMemoryHitRate"=0,"texturePageOutBytes"=0,"Device Unit 5 Utilization %"=0,"swapCompleteVideoWaitTime"=0,"orphanedReusableSysMemoryHitRate"=0,"dataBufferCount"=0,"oolTexturePageInBytes"=0,"textureCount"=513,"Device Utilization % at cur p-state"=0,"iosurfaceTextureCreationCount"=0,"freeDataBufferWaitTime"=0,"surfaceReadLockIdleWaitTime"=0,"orphanedReusableSysMemoryBytes"=871116800,"ioSurfaceReadOutBytes"=0,"agprefTextureCreationCount"=0,"orphanedReusableSysMemoryCount"=4488,"finishAll2DWaitTime"=0,"orphanedNonReusableSysMemoryCount"=0,"ioSurfacePageOutBytes"=0,"surfaceBufferReadOutBytes"=0,"surfaceTextureCreationCount"=0,"textureReadOutBytes"=0,"gartMapInBytesPerSample"=0,"swapBytesPerSample"=0,"dataBytesPerSample"=0,"surfaceCount"=15,"Device Unit 0 Utilization %"=0,"clientGLWaitTime"=0,"clientSharedAllocatedBytes"=438272,"surfaceCopyInWaitTime"=0,"gartMapOutBytesPerSample"=0,"ioSurfacePageInBytes"=0,"surfaceCopyOutWaitTime"=0,"gartCacheBytes"=67108864,"volatileSurfaceCount"=0,"vramEvictionWaitTime"=0,"oolTextureCreationBytes"=0,"freeToAllocGPUAddressWaitTime"=0,"oolTextureCreationCount"=0,"Device Unit 1 Utilization %"=0,"orphanedReusableVidMemoryCount"=0,"orphanedReusableVidMemoryBytes"=0,"context2DCount"=3,"inUseSysMemoryBytes"=18446744073054676672,"bufferSwapCount"=0,"orphanedNonReusableVidMemoryBytes"=0,"contextGLCount"=0,"finish2DWaitTime"=0,"Device Unit 2 Utilization %"=0,"gartSizeBytes"=7516192768,"recoveryCount"=0,"stdTexturePageInBytes"=0,"agprefTextureCreationBytes"=0,"gartUsedBytes"=216241856,"surfaceWriteLockIdleWaitTime"=0,"surfaceBufferPageInBytes"=0,"finishGLWaitTime"=0,"iosurfaceTextureCreationBytes"=0,"finishCLWaitTime"=0,"finishVideoWaitTime"=0,"contextCLCount"=0,"Device Unit 3 Utilization %"=0,"freeSurfaceBackingWaitTime"=0,"swapCompleteGLWaitTime"=0,"orphanedNonReusableSysMemoryBytes"=0,"inUseVidMemoryBytes"=0,"agpTextureCreationBytes"=524288,"stdTextureCreationBytes"=0,"agpTextureCreationCount"=1,"stdTextureCreationCount"=0,"surfaceSetShapeIdleWaitTime"=0,"gartFreeBytes"=7299950912,"textureVolunteerUnloadBytes"=0,"Device Unit 4 Utilization %"=0,"bufferFlipCount"=0,"hardwareSubmitWaitTime"=0,"surfaceBufferPageOutBytes"=0,"Device Utilization %"=0,"hardwareWaitTime"=0,"surfaceBufferTextureCreationCount"=0,"contextVideoCount"=0,"freeSurfaceSwapBufferWaitTime"=0,"swapComplete2DWaitTime"=0,"orphanedNonReusableVidMemoryCount"=0}
+  |   "IOGLBundleName" = "AppleIntelTGLGraphicsGLDriver"
+  |   "IOClass" = "IntelAccelerator"
+
+[1;36m== 5. libxedrv có nạp vào WindowServer (12h gần nhất) ==[0m
+  số lần: 6
+2026-10-23 04:30:28.932 Df WindowServer[195:3aa] (libxedrv.dylib) xedrv17: carregada em WindowServer[195]: entries=1 pd=1 rhm=1 layout=1 lab=0
+2026-10-23 04:52:05.693 Df WindowServer[195:3a8] (libxedrv.dylib) xedrv17: carregada em WindowServer[195]: entries=1 pd=1 rhm=1 layout=1 lab=0
+
+[1;36m== 6. Công tắc libxedrv ==[0m
+  XE_STENCIL_NATIVO  = 
+  XE_FILL_NATIVO     = 
+  XE_COPIA_NATIVA    = 
+  XE_NOCOPY_ZERO     = 
+  XE_COMPRESSAO      = 
+
+[1;36m== 7. Lỗi GPU trong 30 phút ==[0m
+  số sự kiện: 48

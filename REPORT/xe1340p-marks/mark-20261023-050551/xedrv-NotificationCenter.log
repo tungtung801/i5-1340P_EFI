@@ -1,0 +1,110 @@
+1792756955 sem compressão: dev=1 ios=1 heap=1 heapoff=1 heapsize=1
+1792756955 registrador de pipelines: 1 1 1 1 1
+1792756955 nocopyfix: 1 1
+1792756955 fillfix: fill=1 fill4=1 cópia2D->3D=1
+1792756955 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x112305000)
+1792756955 layout: RPDInternal size=0x338 _private@0x30; attInternal size=0x10 _private@0x8
+1792756955 layout: sonda sampleCount@0xb8=4 vertexDescriptor@0x110 ok -> conversão ligada
+1792756955 carregada em NotificationCenter[600]: entries=1 pd=1 rhm=1 layout=1 lab=0
+1792756960 TEX via=iosurface fmt=80 704x256 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=1)
+1792756960 TEX via=dev fmt=80 128x96 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=1)
+1792756960 TEX via=dev fmt=65 128x96 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=1)
+1792756960 TEX via=heap fmt=253 128x96 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=1)
+1792756960 STENCIL64K 128x96 fmt=253 estava em 0x4041d000 (não alinhado a 64 KB) -> heap próprio em 0x40430000 (n=1)
+1792756960 TEX via=dev fmt=253 128x96 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=1)
+1792756960 TEX via=dev fmt=80 128x96 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=2)
+1792756960 hashMap[0] nó=0x6000001aef20 k0=3 k1=3 valor=0x6000003067e0 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x6000001aef40 k0=6 k1=6 valor=0x600000306540 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x6000001aef00 k0=1 k1=1 valor=0x6000003067f0 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x6000001aeee0 k0=0 k1=0 valor=0x6000003067d0 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x6000001aeec0 k0=2 k1=2 valor=0x6000003067c0 isa=11dfff848eb26f1
+1792756960 hashMap[0] nó=0x6000001a0240 k0=3 k1=3 valor=0x60000031be10 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x6000001a0760 k0=6 k1=6 valor=0x60000031be70 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x6000001a06a0 k0=1 k1=1 valor=0x60000031be90 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x6000001a0280 k0=0 k1=0 valor=0x60000031b590 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x6000001a0680 k0=2 k1=2 valor=0x60000031bde0 isa=11dfff848eb26f1
+1792756960 _descriptorPrivate(pipeline) convertido p/ layout antigo
+1792756960 _descriptorPrivate(attachment) convertido p/ bits antigos
+1792756960 PIPE sync-opt ok vf=plane__vertex ff=fca16fefa4 cor0=80 blend=0 ok=1 falhas=0 
+1792756960 hashMap[0] nó=0x6000001ca9c0 k0=3 k1=3 valor=0x600000331a10 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x6000001ca9a0 k0=6 k1=6 valor=0x600000331a40 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x6000001caea0 k0=1 k1=1 valor=0x600000331a30 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x6000001cae40 k0=0 k1=0 valor=0x600000331a20 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x6000001caec0 k0=2 k1=2 valor=0x600000331a00 isa=11dfff848eb26f1
+1792756960 hashMap[0] nó=0x6000001a0920 k0=3 k1=3 valor=0x60000031bee0 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x6000001a0940 k0=6 k1=6 valor=0x60000031be50 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x6000001a0900 k0=1 k1=1 valor=0x60000031be30 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x6000001a08e0 k0=0 k1=0 valor=0x60000031bef0 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x6000001a08c0 k0=2 k1=2 valor=0x60000031bed0 isa=11dfff848eb26f1
+1792756960 PIPE sync-opt ok vf=mask__vertex ff=fla7ca8fefa4 cor0=80 blend=1 ok=2 falhas=0 
+1792756960 hashMap[0] nó=0x6000001aefc0 k0=3 k1=3 valor=0x600000306570 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x6000001aefe0 k0=6 k1=6 valor=0x600000306650 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x6000001aefa0 k0=1 k1=1 valor=0x6000003065b0 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x6000001aef80 k0=0 k1=0 valor=0x6000003059c0 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x6000001aef60 k0=2 k1=2 valor=0x600000306560 isa=11dfff848eb26f1
+1792756960 PIPE sync-opt ok vf=plane__vertex ff=foba2ebpa10faea4 cor0=80 blend=0 ok=3 falhas=0 
+1792756960 hashMap[0] nó=0x60000017ada0 k0=3 k1=3 valor=0x600000321710 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x60000017adc0 k0=6 k1=6 valor=0x600000321740 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x60000017ad80 k0=1 k1=1 valor=0x600000321730 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x60000017ad60 k0=0 k1=0 valor=0x600000321720 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x60000017ad40 k0=2 k1=2 valor=0x600000321700 isa=11dfff848eb26f1
+1792756960 PIPE sync-opt ok vf=plane__vertex ff=foba2ebpa10fefa4 cor0=80 blend=0 ok=4 falhas=0 
+1792756960 hashMap[0] nó=0x60000017ae80 k0=3 k1=3 valor=0x600000321790 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x60000017aea0 k0=6 k1=6 valor=0x6000003217c0 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x60000017ae60 k0=1 k1=1 valor=0x6000003217b0 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x60000017ae40 k0=0 k1=0 valor=0x6000003217a0 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x60000017ae20 k0=2 k1=2 valor=0x600000321780 isa=11dfff848eb26f1
+1792756960 PIPE sync-opt ok vf=plane__vertex ff=fmba15fefa4 cor0=80 blend=0 ok=5 falhas=0 
+1792756960 hashMap[0] nó=0x60000017aec0 k0=3 k1=3 valor=0x6000003217e0 isa=11dfff848eb26f1
+1792756960 hashMap[1] nó=0x60000017aee0 k0=6 k1=6 valor=0x600000321810 isa=11dfff848eb26f1
+1792756960 hashMap[2] nó=0x60000017ae80 k0=1 k1=1 valor=0x600000321800 isa=11dfff848eb26f1
+1792756960 hashMap[3] nó=0x60000017aea0 k0=0 k1=0 valor=0x6000003217f0 isa=11dfff848eb26f1
+1792756960 hashMap[4] nó=0x60000017ae60 k0=2 k1=2 valor=0x6000003217d0 isa=11dfff848eb26f1
+1792756960 PIPE sync-opt ok vf=vhe2ae2a2ca8fefa4 ff=fhe2ae2a2ca8fefa4 cor0=80 blend=1 ok=6 falhas=0 
+1792756960 TEX via=dev fmt=65 704x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=2)
+1792756960 TEX via=heap fmt=253 704x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=2)
+1792756960 STENCIL64K 704x256 fmt=253 estava em 0x40c21000 (não alinhado a 64 KB) -> heap próprio em 0x40c70000 (n=2)
+1792756960 TEX via=dev fmt=253 704x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=2)
+1792756960 PIPE sync-opt ok vf=vjba6la8fefa4 ff=path_exterior_fragment cor0=80 blend=0 ok=8 falhas=0 
+1792756960 TEX via=dev fmt=80 32x32 mips=1 usage=0x1 storage=1 type=2 ios=0x00000000 plano=0 -> ok (n=3)
+1792756960 PIPE sync-opt ok vf=plane__vertex ff=fcfa6ca8fefa4 cor0=80 blend=1 ok=16 falhas=0 
+1792756960 TEX via=iosurface fmt=115 384x256 mips=1 usage=0x5 storage=1 type=2 ios=0x52476841 plano=0 -> ok (n=1)
+1792756960 TEX via=dev fmt=115 64x64 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=1)
+1792756960 TEX via=dev fmt=65 64x64 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=3)
+1792756960 TEX via=heap fmt=253 64x64 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=3)
+1792756960 STENCIL64K 64x64 fmt=253 estava em 0x40b55000 (não alinhado a 64 KB) -> heap próprio em 0x40d80000 (n=3)
+1792756960 TEX via=dev fmt=253 64x64 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=3)
+1792756960 TEX via=dev fmt=65 384x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=4)
+1792756960 TEX via=heap fmt=253 384x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=4)
+1792756960 STENCIL64K 384x256 fmt=253 estava em 0x40df1000 (não alinhado a 64 KB) -> heap próprio em 0x40e20000 (n=4)
+1792756960 TEX via=dev fmt=253 384x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=4)
+1792756960 TEX via=iosurface fmt=80 256x256 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=2)
+1792756960 TEX via=iosurface fmt=80 256x256 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=3)
+1792756960 TEX via=iosurface fmt=115 384x256 mips=1 usage=0x5 storage=1 type=2 ios=0x52476841 plano=0 -> ok (n=2)
+1792756960 TEX via=iosurface fmt=115 384x256 mips=1 usage=0x5 storage=1 type=2 ios=0x52476841 plano=0 -> ok (n=3)
+1792756960 TEX via=iosurface fmt=115 384x256 mips=1 usage=0x5 storage=1 type=2 ios=0x52476841 plano=0 -> ok (n=4)
+1792756960 TEX via=iosurface fmt=80 256x256 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=4)
+1792756962 TEX via=dev fmt=80 64x64 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=4)
+1792756962 PIPE sync-opt ok vf=plane_image_stretch_vertex ff=fdea3eabca8fefa4 cor0=80 blend=1 ok=32 falhas=0 
+1792756969 TEX via=dev fmt=25 32x32 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=1)
+1792756969 TEX via=dev fmt=65 32x32 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=8)
+1792756969 TEX via=heap fmt=253 32x32 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=8)
+1792756969 STENCIL64K 32x32 fmt=253 estava em 0x40c21000 (não alinhado a 64 KB) -> heap próprio em 0x410a0000 (n=8)
+1792756969 TEX via=dev fmt=253 32x32 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=8)
+1792756969 TEX via=dev fmt=115 256x128 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=2)
+1792756969 TEX via=iosurface fmt=80 512x256 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=8)
+1792756971 TEX via=iosurface fmt=115 256x256 mips=1 usage=0x5 storage=1 type=2 ios=0x52476841 plano=0 -> ok (n=8)
+1792756971 TEX via=dev fmt=25 64x32 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=2)
+1792756971 TEX via=dev fmt=115 544x128 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=3)
+1792756972 TEX via=dev fmt=115 288x128 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=4)
+1792757006 TEX via=dev fmt=25 32x32 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=3)
+1792757006 TEX via=dev fmt=65 512x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=16)
+1792757006 TEX via=dev fmt=253 512x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=16)
+1792757056 PIPE sync-opt ok vf=mask__vertex ff=fja7pa8fefa4 cor0=80 blend=0 ok=64 falhas=0 
+1792757056 TEX via=dev fmt=80 128x96 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=8)
+1792757056 TEX via=heap fmt=253 384x256 mips=1 usage=0x4 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=16)
+1792757056 STENCIL64K 384x256 fmt=253 estava em 0x40ef1000 (não alinhado a 64 KB) -> heap próprio em 0x40f20000 (n=16)
+1792757056 TEX via=dev fmt=25 32x32 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=4)
+1792757057 TEX via=iosurface fmt=80 896x256 mips=1 usage=0x5 storage=1 type=2 ios=0x42475241 plano=0 -> ok (n=16)
+1792757057 TEX via=dev fmt=115 288x128 mips=1 usage=0x5 storage=2 type=2 ios=0x00000000 plano=0 -> ok (n=8)
+1792757057 TEX via=iosurface fmt=115 256x256 mips=1 usage=0x5 storage=1 type=2 ios=0x52476841 plano=0 -> ok (n=16)

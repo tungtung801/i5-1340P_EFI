@@ -1,0 +1,8 @@
+1792756335 sem compressão: dev=1 ios=1 heap=1 heapoff=1 heapsize=1
+1792756335 registrador de pipelines: 1 1 1 1 1
+1792756335 nocopyfix: 1 1
+1792756335 fillfix: fill=1 fill4=1 cópia2D->3D=1
+1792756335 12 métodos adicionados, caps/dynlib/archive desligados (índice inválido=0, driver base=0x107b94000)
+1792756335 layout: RPDInternal size=0x338 _private@0x30; attInternal size=0x10 _private@0x8
+1792756335 layout: sonda sampleCount@0xb8=4 vertexDescriptor@0x110 ok -> conversão ligada
+1792756335 carregada em Installer Progress[124]: entries=1 pd=1 rhm=1 layout=1 lab=0
